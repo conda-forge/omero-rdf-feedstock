@@ -1,5 +1,5 @@
 {% set name = "omero-rdf" %}
-{% set version = "0.6.1" %}
+{% set version = "0.7.2" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/omero_rdf-{{ version }}.tar.gz
-  sha256: 2d1f7f518fe2f842c9f48d3a80d53c0fade7fa51bbac8bea19a03f1b6017243e
+  sha256: 50813f10f4f4a0b382f7fefa5e6a531f16acc7b535ff86318559e40fbbc23430
 
 build:
   noarch: python
